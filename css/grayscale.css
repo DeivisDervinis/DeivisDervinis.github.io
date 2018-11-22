@@ -31,6 +31,7 @@ p {
     margin: 0 0 25px;
 }
 
+
 @media (min-width: 768px) {
     p {
         font-size: 18px;
@@ -51,8 +52,13 @@ a:focus, a:hover {
     color: #1d9b6c;
 }
 
+#skills_header{
+    padding-top: 100px;
+}
+
 .container-back{
     background: rgba(0,0,0,0.4);
+    padding-bottom: 100px;
 }
 
 .section_title{
@@ -157,6 +163,11 @@ i{
 
 .devicon-visualstudio-plain:hover{
     color: #14b8ff;
+    transition: color 0.5s ease;
+}
+
+.devicon-swift-plain:hover{
+    color: #F05138;
     transition: color 0.5s ease;
 }
 
@@ -321,10 +332,12 @@ i{
 /*Content Images */
 .content_back_fill{
     background: url("../img/back-fill.jpg") no-repeat bottom center;
+    background-size: cover;
 }
 
 .content_back_fill_2{
     background: url("../img/back-fill2.jpg") no-repeat bottom center;
+    background-size: cover;
 }
 
 .content_back_fill_3{
@@ -338,13 +351,13 @@ i{
 }
 
 @media (min-width: 992px) {
-    .content-section {
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
     #map {
         height: 350px;
     }
+}
+
+.list-align{
+    text-align: left;
 }
 
 .btn {
@@ -364,10 +377,10 @@ i{
 }
 
 .btn-github:hover, btn-github:focus{
-    color: black;
+    color: white;
     border: 1px solid black;
     outline: none;
-    background-color: #fff;
+    background-color: #4286f4;
 }
 
 .btn-google{
