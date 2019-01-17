@@ -232,7 +232,8 @@ i{
     }
     #mainNav .nav-link.active {
         outline: none;
-        background: rgba(15, 15, 15,0.3)
+        background: rgba(15, 15, 15,0.3);
+        border: 1px solid white;
     }
     #mainNav .nav-link.active:hover {
         color: white;
@@ -244,6 +245,27 @@ i{
     border-radius: 8px;
     background: rgba(15, 15, 15,0.3);
     text-align: center;
+}
+
+.button-hover-down{
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(15, 15, 15,0.0);
+    text-align: center;
+}
+
+.button-hover-down:hover, button-hover-down:focus, button-hover-down:active{
+    background: rgba(15, 15, 15,0.6);
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+.nav-btn{
+}
+
+#button-exclusive{
+    background: rgba(15, 15, 15,0.3);
 }
 
 .button-hover:hover, button-hover:focus, button-hover:active{
@@ -415,6 +437,10 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
+}
+
+#contact{
+    height: 77vh;
 }
 
 footer {
