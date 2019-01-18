@@ -233,7 +233,7 @@ i{
     #mainNav .nav-link.active {
         outline: none;
         background: rgba(15, 15, 15,0.3);
-        border: 1px solid white;
+        border-bottom: 2px solid white;
     }
     #mainNav .nav-link.active:hover {
         color: white;
@@ -259,6 +259,7 @@ i{
     color: #fff;
     text-decoration: none;
     transition: all 0.3s ease-out;
+    border-bottom: 2px solid white;
 }
 
 .nav-btn{
@@ -351,7 +352,6 @@ i{
     border-top: 2px solid rgba(255, 255, 255, 0.2);
 }
 
-/*Content Images */
 .content_back_fill{
     background: url("../img/back-fill.jpg") no-repeat bottom center;
     background-size: cover;
