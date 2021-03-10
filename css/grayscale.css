@@ -353,7 +353,7 @@ i{
 }
 
 .content_back_fill{
-    background: url("../img/back-fill.jpg") no-repeat bottom center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/back-fill.jpg") no-repeat bottom center;
     background-size: cover;
 }
 
@@ -418,6 +418,19 @@ i{
     background-color: #db4437;
 }
 
+.btn-linkedin{
+    color: #42DCA3;
+    border: 1px solid #42DCA3;
+    background-color: transparent;
+}
+
+.btn-linkedin:hover, btn-google:focus{
+    color: white;
+    border: 1px solid black;
+    outline: none;
+    background-color: #0077B5;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -470,4 +483,8 @@ img::selection {
 
 img::-moz-selection {
     background: transparent;
+}
+
+#about{
+    font-family: Helvetica;
 }
